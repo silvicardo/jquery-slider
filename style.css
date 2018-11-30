@@ -24,6 +24,12 @@
 
 }
 
+.slider_images_cnt {
+  margin: auto;
+  width: 400px;
+  height: 100%;
+}
+
 .fas {
   position: absolute;
   top: 50%;
