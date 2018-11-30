@@ -30,7 +30,7 @@
   height: 100%;
 }
 
-.fas {
+.fas.prev, .fas.next {
   position: absolute;
   top: 50%;
   left: 0;
@@ -51,4 +51,15 @@
 
 .slider_cnt img.active {
   display: block;
+}
+.slider_cnt .slider_indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  padding: 10px 15px;
+  border-radius: 12px;
+  background: white;
+
 }
