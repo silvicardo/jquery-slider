@@ -7,7 +7,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-
 header {
   width: 100%;
   background: #275689;
@@ -23,7 +22,6 @@ nav {
   align-items: center;
   font-size: 30px;
   color: white;
-  /* background: yellow; */
 }
 
 nav h1 {
@@ -41,13 +39,10 @@ nav h1 {
   border-radius: 100%;
 }
 
-
 .content_area {
   margin: 100px auto;
   max-width: 1000px;
   height: auto;
-  /* background: red; */
-
 }
 
 .slider_cnt {
@@ -71,7 +66,7 @@ nav h1 {
 .fas.prev, .fas.next {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: -20px;
   transform: translateY(-50%);
 }
 
@@ -81,7 +76,7 @@ nav h1 {
 
 .fas.fa-arrow-right {
   left: auto;
-  right: 0;
+  right: -20px;
 }
 
 .slider_cnt .slider_images_cnt img {
@@ -98,6 +93,7 @@ nav h1 {
 .slider_cnt .slider_images_cnt img.active {
   display: block;
 }
+
 .slider_cnt .slider_indicators {
   position: absolute;
   bottom: 20px;
@@ -111,4 +107,22 @@ nav h1 {
 
 .fas.fa-circle {
   color: green;
+}
+
+.slider_options {
+  margin-top: 50px;
+  text-align: center;
+}
+
+button.scroll_mode {
+  margin: 20px 0px;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 15px;
+  background: fuchsia;
+  color:white;
+}
+
+button.scroll_mode.auto {
+  background: black;
 }
