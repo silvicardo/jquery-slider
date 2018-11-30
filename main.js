@@ -21,7 +21,7 @@ function slideVerso(direzione) {
   var tutteLeImmagini = $('.slider_cnt .slider_img');
 
   //icone pallini
-  var tuttiIPallini =$('.fa-circle');
+  var tuttiIPallini = $('.fa-circle');
   var pallinoAttuale = $('.fas.fa-circle');
   var primoPallino = $('.slider_indicators i:first-child');
   var ultimoPallino = $('.slider_indicators i:last-child');
