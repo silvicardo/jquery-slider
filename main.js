@@ -45,7 +45,7 @@ $('.slider_cnt .fas').click(function () {
     //e setto la var isScrolling su vero
     isScrolling = true;
     infiniteScrollingFunction = setInterval(function () {
-
+      //la funzione si blocca quando l'utente torna a Manuale
       if (modalitaScrollAuto == true) {
         (classiFrecciaPremuta.includes('right')) ? slideVerso('destra') : slideVerso('sinistra');
       } else {
@@ -59,7 +59,7 @@ $('.slider_cnt .fas').click(function () {
     clearInterval(infiniteScrollingFunction);
     //e ne avvio una nuova nella direzione scelta dall'utente
     infiniteScrollingFunction = setInterval(function () {
-
+      //la funzione si blocca quando l'utente torna a Manuale
       if (modalitaScrollAuto == true) {
         (classiFrecciaPremuta.includes('right')) ? slideVerso('destra') : slideVerso('sinistra');
       } else {
